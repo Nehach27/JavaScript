@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<body>
+	<script>
+		
+		function outer(){
+			var j="J is a local variable of outer function";
+			document.write(j + "<br>");
+
+			function inner(){
+				var k="K is a local variable of inner function";
+				document.write(k +"<br>");
+			}
+			inner();
+		}
+		outer();
+	</script>
+</body>	
+</html>
