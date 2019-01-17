@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<script type="text/javascript">
+		function farm(cows,chickens){
+			let cowString=String(cows);
+			while(cowString.length<3){
+				cowString="0"+cowString;
+			}
+			document.write(`${cowString}Cows <br>`);
+
+			let chickensString=String(chickens);
+			while(chickensString.length<3){
+				chickensString="0"+chickensString;
+			}
+			document.write(`${chickensString}Chickens<br>`);
+		}
+		farm(5,10);
+
+	</script>
+
+</body>
+</html>sss

@@ -7,17 +7,14 @@
 	<script type="text/javascript">
 
 		function power(base,exponent){
-			debugger;
-		if (exponent ==0)
-			return 1;
-		
-		else
-			return base*power(base, exponent-1)
-		
-	}
-	document.write(power(2,3));
+			
+			if (exponent == 0)
+				return 1;
+			else
+				return base * power(base, exponent-1)
+		}
+		document.write(power(2,3));
 
 	</script>
-
 </body>
 </html>

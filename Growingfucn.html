@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+
+			//Growing Function
+
+		document.write("Growing function<br>");
+
+		function print(number, label) {
+	 	    let numberString = String(number);
+		    while (numberString.length < 3) {
+		    numberString = "0" + numberString;
+		    }
+		    document.write(`${numberString} ${label}<br>`);
+		 }
+
+		function Farm(cows, chickens, pigs) {
+		    print(cows, "Cows");
+		    print(chickens, "Chickens");
+		    print(pigs, "Pigs");
+		}
+
+		Farm(7, 11, 3);
+	</script>
+
+</body>
+</html>

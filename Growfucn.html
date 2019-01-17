@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function print(number,width){
+			let string=String(number);
+			while(string.length<width){
+				string="0" + string;
+			}
+			return string;
+		}
+		function farm(cow,chicken,pig){
+			document.write(`${print(cow, 3)} Cows <br>`);
+			document.write(`${print(chicken, 3)} Chickens <br>`);
+			document.write(`${print(pig, 3)} Pigs`);
+		}
+		farm(7,9,11);
+	</script>
+
+</body>
+</html>
