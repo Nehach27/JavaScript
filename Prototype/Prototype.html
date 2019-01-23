@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script type="text/javascript">
+    function Student() {
+      this.name = 'John';
+      this.gender = 'Male';
+    }
+
+      var studObj = new Student();
+
+      document.write(Student.prototype);
+      document.write("<br>"+ studObj.prototype);
+      document.write("<br>"+ studObj.__proto__);
+
+      document.write("<br>"+ typeof Student.prototype);
+      document.write("<br>"+ typeof studObj.__proto__);
+
+      docment.write("<br>"+ Student.prototype === studObj.__proto__ );
+
+</script>
+
+</body>
+</html>
