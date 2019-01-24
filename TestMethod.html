@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script type="text/javascript">
+
+    var str = "The best things in life are free";
+    var path = new RegExp("e");
+    var res = path.test(str);
+    document.write(res);
+
+    // The string:
+    var str2 = "Hello world!";
+    var path1 = /Hello/g;
+    var result1 = path1.test(str2);
+    document.write("<br>" + result1);
+
+    path2 = /W3schuls/g;
+    result2 = path2.test(str2);
+    document.write("<br>" + result2);
+  </script>
+
+</body>
+</html>
