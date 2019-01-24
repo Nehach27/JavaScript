@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script type="text/javascript">
+    var obj={
+      name:"somename",
+      age:2,
+      getname:function()
+      {
+      return this.name;
+      },
+      setname:function(newName)
+      {
+      this.name=newName;
+      }
+      };
+      document.write(obj.getname() + "<br>");
+
+      obj.setname("newone");
+      document.write(obj.getname());
+
+  </script>
+
+</body>
+</html>

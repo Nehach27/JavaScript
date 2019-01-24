@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script type="text/javascript">
+    var emp=function(name,age){
+      var name=name;
+      this.age=age;
+      this.callName=function(){
+        return name;
+      };
+    };
+    var obj=new emp("Its a name",22);
+    document.write("Name is: " + obj.callName() + "<br>");
+    document.write("Age is: " + obj.age);
+  </script>
+
+</body>
+</html>

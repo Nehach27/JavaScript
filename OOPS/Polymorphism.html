@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script>
+    function findAll(){
+      return("Find All" + "<br>");
+    }
+    function findById(){
+      return("Find By Id");
+    }
+    function find(){
+      if(arguments.length){
+        document.write(findById());
+      }
+      else{
+        document.write(findAll());
+      }
+    }
+    find();
+    find(2,2);
+
+  </script>
+
+</body>
+</html>
