@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script type="text/javascript">
+    //Without Strict Mode
+    // function Person(name) {
+    // this.name = name; 
+    // }
+    // let p = Person("Ferdinand");
+    // document.write(name);    //Ferdinand
+
+    //With Strict Mode
+    "use strict";
+    function Person(name1) {
+    this.name1 = name1; 
+    }
+    let v = Person("Ferdinand");
+    document.write(name1);      //Cannot set property 'name1' of undefined
+
+  </script>
+
+</body>
+</html>

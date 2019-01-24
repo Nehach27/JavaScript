@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script type="text/javascript">
+    function canYouSpotTheProblem() {
+      "use strict";
+      for (counter = 0; counter <= 10; counter++) {    
+      //counter is not defined error due to strict mode
+      console.log("Happy happy");                 
+      }
+    }
+    canYouSpotTheProblem();
+    SpotTheProblem();
+  </script>
+
+</body>
+</html>
