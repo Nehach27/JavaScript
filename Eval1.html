@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script type="text/javascript">
+    const x = 1;
+    function evalAndReturnX(code) {
+      eval(code);
+      return x;
+    }
+    document.write(evalAndReturnX("var x = 2"));
+    document.write("<br>" + x);
+  </script>
+
+</body>
+</html>
